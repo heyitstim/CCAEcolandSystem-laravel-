@@ -750,6 +750,59 @@
         "description": "Highlight PHP code in terminal"
     },
     {
+        "name": "laravel-frontend-presets/uikit3",
+        "version": "0.0.8",
+        "version_normalized": "0.0.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/laravel-frontend-presets/uikit3.git",
+            "reference": "924514ee177bf1ed7da11e495995c95589453698"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/laravel-frontend-presets/uikit3/zipball/924514ee177bf1ed7da11e495995c95589453698",
+            "reference": "924514ee177bf1ed7da11e495995c95589453698",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/support": "~5.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.5"
+        },
+        "time": "2018-04-22T17:25:40+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "LaravelFrontendPresets\\UIKit3Preset\\UIKit3PresetServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "LaravelFrontendPresets\\UIKit3Preset\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Owen Melbourne",
+                "email": "owenmelbz@gmail.com"
+            }
+        ],
+        "description": "Laravel 5.5.X Front-end preset for UIKit 3.",
+        "keywords": [
+            "laravel",
+            "preset",
+            "uikit3"
+        ]
+    },
+    {
         "name": "laravel/framework",
         "version": "v5.8.3",
         "version_normalized": "5.8.3.0",
