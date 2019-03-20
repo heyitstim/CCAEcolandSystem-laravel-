@@ -37,6 +37,15 @@
                         </div>
 
                         <div class="uk-margin">
+                            <label class="uk-form-label">Occupation</label>
+                            <div data-uk-button-radio>
+                                <input type="radio" name="membertype" value="3" checked>Student<br>
+                                <input type="radio" name="membertype" value="2" >Teacher<br>               
+                                <input type="radio" name="membertype" value="1" >Administrator<br>
+                            </div>
+                        </div>
+
+                        <div class="uk-margin">
                             <label class="uk-form-label">Password</label>
                             <input id="password" type="password" class="uk-input{{ $errors->has('password') ? ' uk-form-danger' : '' }}" name="password" value="{{ old('password') }}" required>
 
